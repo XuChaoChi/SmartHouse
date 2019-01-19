@@ -1,0 +1,42 @@
+<RCC>
+    <qresource prefix="/">
+        <file>main.qml</file>
+        <file>pages/Page_Login.qml</file>
+        <file>pages/Page_Register.qml</file>
+        <file>imgs/bg/blue.jpg</file>
+        <file>imgs/bg/darkblue.jpg</file>
+        <file>imgs/bg/login.jpg</file>
+        <file>imgs/icon/account.png</file>
+        <file>imgs/icon/password.png</file>
+        <file>imgs/icon/logo.png</file>
+        <file>pages/Page_Main.qml</file>
+        <file>component/XNormalText.qml</file>
+        <file>component/XSubmitBtn.qml</file>
+        <file>component/XToolBar.qml</file>
+        <file>imgs/btn/main_bottom_btn1.png</file>
+        <file>imgs/btn/main_bottom_btn2.png</file>
+        <file>imgs/btn/main_bottom_btn3.png</file>
+        <file>imgs/btn/main_bottom_btn4.png</file>
+        <file>component/XMainTabBtn.qml</file>
+        <file>imgs/icon/no.png</file>
+        <file>imgs/icon/ok.png</file>
+        <file>component/XPromptBox.qml</file>
+        <file>imgs/other/circle_big.png</file>
+        <file>imgs/other/circle_small.png</file>
+        <file>imgs/other/navigation_next_item.png</file>
+        <file>imgs/icon/warn.png</file>
+        <file>component/XControlBtn.qml</file>
+        <file>pages/Page_Control.qml</file>
+        <file>imgs/btn/Control_button_01.png</file>
+        <file>imgs/btn/Control_button_02.png</file>
+        <file>imgs/btn/Control_button_03.png</file>
+        <file>imgs/btn/Control_button_04.png</file>
+        <file>imgs/btn/Control_button_05.png</file>
+        <file>imgs/btn/Control_button_06.png</file>
+        <file>imgs/btn/Control_button_07.png</file>
+        <file>imgs/btn/Control_button_08.png</file>
+        <file>imgs/btn/Control_button_09.png</file>
+        <file>imgs/other/navigation_previous_item.png</file>
+        <file>component/XPage.qml</file>
+    </qresource>
+</RCC>
