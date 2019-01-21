@@ -13,5 +13,14 @@ login page(注册界面)
 main page(主页)
 
 ![control](https://github.com/XuChaoChi/SmartHouse/blob/master/pages_preview/CONTROL.png)
-control page(控制页面)
+control page(控制界面)
+
+![airconditionChoose](https://github.com/XuChaoChi/SmartHouse/blob/master/pages_preview/AIRCONDITION_CHOOSE.png.png)
+airconditionChoose page(空调选择)
+
+![aircondition](https://github.com/XuChaoChi/SmartHouse/blob/master/pages_preview/AIRCONDITION.png)
+aircondition page(空调界面)
+
+![lightChoose](https://github.com/XuChaoChi/SmartHouse/blob/master/pages_preview/LIGHT_CHOOSE.png)
+lightChoose page(空调界面)
 
