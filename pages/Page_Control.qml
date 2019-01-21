@@ -15,7 +15,7 @@ XPage{
                 XControlBtn {
                       imgPath: portrait;
                       onClicked: {
-                        console.log(pages);
+                        stackViewPush(pages);
                       }
                  }
             }
@@ -24,11 +24,11 @@ XPage{
         id:controlModel;
         ListElement{
             portrait: "qrc:/imgs/btn/Control_button_01.png";
-            pages: "11";
+            pages: "qrc:/pages/Page_AirconditionChoose.qml";
         }
         ListElement{
             portrait: "qrc:/imgs/btn/Control_button_02.png";
-            pages: "11";
+            pages: "qrc:/pages/Page_LightChoose.qml";
         }
         ListElement{
             portrait: "qrc:/imgs/btn/Control_button_03.png";

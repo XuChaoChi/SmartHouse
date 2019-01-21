@@ -38,5 +38,26 @@
         <file>imgs/btn/Control_button_09.png</file>
         <file>imgs/other/navigation_previous_item.png</file>
         <file>component/XPage.qml</file>
+        <file>pages/Page_LightChoose.qml</file>
+        <file>component/XControlListView.qml</file>
+        <file>component/XSwitchBtn.qml</file>
+        <file>imgs/icon/light_big.png</file>
+        <file>imgs/icon/light_small.png</file>
+        <file>component/XTopRect.qml</file>
+        <file>imgs/other/circle_top.png</file>
+        <file>pages/Page_AirconditionChoose.qml</file>
+        <file>imgs/icon/aircondition_big.png</file>
+        <file>imgs/icon/aircondition_small.png</file>
+        <file>pages/Page_Airconditon.qml</file>
+        <file>imgs/btn/power_off.png</file>
+        <file>imgs/btn/power_on.png</file>
+        <file>imgs/icon/cold.png</file>
+        <file>imgs/icon/hot.png</file>
+        <file>imgs/icon/time.png</file>
+        <file>imgs/icon/wind_big.png</file>
+        <file>imgs/icon/wind_mid.png</file>
+        <file>imgs/icon/wind_small.png</file>
+        <file>imgs/btn/add.png</file>
+        <file>imgs/btn/sub.png</file>
     </qresource>
 </RCC>
