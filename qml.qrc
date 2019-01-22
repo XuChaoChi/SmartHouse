@@ -59,5 +59,35 @@
         <file>imgs/icon/wind_small.png</file>
         <file>imgs/btn/add.png</file>
         <file>imgs/btn/sub.png</file>
+        <file>pages/Page_Mode.qml</file>
+        <file>imgs/icon/mode/add.png</file>
+        <file>imgs/icon/mode/bag.png</file>
+        <file>imgs/icon/mode/cake.png</file>
+        <file>imgs/icon/mode/chat.png</file>
+        <file>imgs/icon/mode/choose.png</file>
+        <file>imgs/icon/mode/clock.png</file>
+        <file>imgs/icon/mode/coffice.png</file>
+        <file>imgs/icon/mode/dvd.png</file>
+        <file>imgs/icon/mode/GamePad.png</file>
+        <file>imgs/icon/mode/juice.png</file>
+        <file>imgs/icon/mode/light_off.png</file>
+        <file>imgs/icon/mode/light_on.png</file>
+        <file>imgs/icon/mode/moon.png</file>
+        <file>imgs/icon/mode/news.png</file>
+        <file>imgs/icon/mode/rain.png</file>
+        <file>imgs/icon/mode/snow.png</file>
+        <file>imgs/icon/mode/sofa.png</file>
+        <file>imgs/icon/mode/sun.png</file>
+        <file>imgs/icon/mode/turkey.png</file>
+        <file>imgs/icon/mode/tv.png</file>
+        <file>imgs/icon/mode/vedio.png</file>
+        <file>imgs/icon/mode/wine.png</file>
+        <file>imgs/icon/warn/door.png</file>
+        <file>imgs/icon/warn/fire.png</file>
+        <file>imgs/icon/warn/man.png</file>
+        <file>imgs/icon/warn/smoke.png</file>
+        <file>imgs/btn/choose.png</file>
+        <file>imgs/btn/menu.png</file>
+        <file>pages/Page_Alarm.qml</file>
     </qresource>
 </RCC>

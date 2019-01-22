@@ -50,7 +50,11 @@ XPage {
         id:warnRect;
         anchors.bottom: bgRect.bottom;
         MouseArea{
-            anchors.fill: parent;         
+            id: warnRectMouseArea;
+            anchors.fill: parent;
+            onClicked: {
+                stackViewPush("qrc:/pages/Page_Alarm.qml");
+            }
         }
         Rectangle{
             id:lineRect;
@@ -75,7 +79,7 @@ XPage {
                 color: "white";
             }
         }
-        color: Qt.rgba(0,0,0,0);
+        color: warnRectMouseArea.pressed ? Qt.rgba(0,0,0,0.2) :  Qt.rgba(0,0,0,0);
         width: parent.width
         height: dpH(60);
 
@@ -173,7 +177,10 @@ XPage {
         XMainTabBtn {
             height:parent.height;
             imgPath:"qrc:/imgs/btn/main_bottom_btn2.png";
-            btnText: qsTr("View");
+            btnText: qsTr("Mode");
+            onClicked: {
+                stackViewPush("qrc:/pages/Page_Mode.qml");
+            }
         }
         XMainTabBtn {
             height:parent.height;
