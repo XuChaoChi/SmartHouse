@@ -22,5 +22,11 @@ airconditionChoose page(空调选择)
 aircondition page(空调界面)
 
 ![lightChoose](https://github.com/XuChaoChi/SmartHouse/blob/master/pages_preview/LIGHT_CHOOSE.png)
-lightChoose page(空调界面)
+lightChoose page(灯光选择)
+
+![mode](https://github.com/XuChaoChi/SmartHouse/blob/master/pages_preview/MODE.png)
+mode page(场景模式)
+
+![alarm](https://github.com/XuChaoChi/SmartHouse/blob/master/pages_preview/ALARM.png)
+alarm page(报警页面)
 
