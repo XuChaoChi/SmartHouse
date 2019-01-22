@@ -22,8 +22,8 @@ ApplicationWindow {
 
     header: XToolBar {
         id:mainToolBar;
-
     }
+
 
     signal sig_StackViewPush(string strPath);
     signal sig_StackViewPop(int nIndex);
@@ -35,6 +35,10 @@ ApplicationWindow {
         emit: onSig_StackViewPop(nIndex);
     }
 
+    function showMsgBox(strMsg){
+        var dialog = Qt.createComponent("qrc:/component/XPromptBox.qml").createObject(window);
+        dialog.msgText = strMsg;
+    }
 
     onSig_StackViewPush: {
         console.log("push page: "+strPath)
