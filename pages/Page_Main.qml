@@ -1,10 +1,37 @@
 ﻿import QtQuick 2.0
 import QtQuick.Controls 2.0
 import QtQuick.Controls.Styles 1.4
+
 import "../component"
 XPage {
     id:mainPage;
     title: qsTr("");
+    Rectangle{
+        id: menuRect;
+        width: dpW(20);
+        height: dpH(20);
+        anchors.top: parent.top; anchors.topMargin: dpH(10);
+        anchors.left: parent.left; anchors.leftMargin: dpW(10);
+        color: menuArea.pressed ? Qt.rgba(0,0,0,0.2) : Qt.rgba(0,0,0,0);
+        radius: dpX(5);
+        MouseArea{
+            id: menuArea;
+            anchors.fill: parent;
+            onClicked: {
+                drawer.open();
+            }
+        }
+        Image{
+            anchors.fill: parent;
+            source: "qrc:/imgs/btn/menu.png"
+        }
+        z: 2;
+    }
+
+    Page_MainDrawer {
+        id: drawer
+    }
+
     Rectangle{
         id:bgRect;
         width: parent.width;

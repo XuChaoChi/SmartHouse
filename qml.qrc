@@ -89,5 +89,16 @@
         <file>imgs/btn/choose.png</file>
         <file>imgs/btn/menu.png</file>
         <file>pages/Page_Alarm.qml</file>
+        <file>imgs/icon/main/alarm.png</file>
+        <file>imgs/icon/main/master.png</file>
+        <file>imgs/icon/main/music.png</file>
+        <file>imgs/icon/main/pos.png</file>
+        <file>imgs/icon/main/sys.png</file>
+        <file>imgs/icon/main/time.png</file>
+        <file>component/XMainDrawerItem.qml</file>
+        <file>component/XLabel.qml</file>
+        <file>pages/Page_MainDrawer.qml</file>
+        <file>C:/Users/Chixuchao/Downloads/用户.png</file>
+        <file>imgs/icon/user2.png</file>
     </qresource>
 </RCC>

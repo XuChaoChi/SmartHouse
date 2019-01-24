@@ -30,3 +30,6 @@ mode page(场景模式)
 ![alarm](https://github.com/XuChaoChi/SmartHouse/blob/master/pages_preview/ALARM.png)
 alarm page(报警页面)
 
+![main drawer](https://github.com/XuChaoChi/SmartHouse/blob/master/pages_preview/MAIN_DRAWER.png)
+main drawer page(主面侧栏)
+
