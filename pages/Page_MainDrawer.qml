@@ -10,34 +10,48 @@ Drawer {
     LinearGradient {
         Column {
             anchors.fill: parent;
-            RowLayout {
+            Rectangle{
                 width: parent.width;
                 height: dpH(70);
-                Rectangle{
-                    Image {
-                        anchors.fill: parent;
-                        source: "qrc:/imgs/icon/user2.png"
+                color: Qt.rgba(0,0,0,0);
+                MouseArea{
+                    anchors.fill: parent;
+                    onClicked: {
+                        stackViewPush("qrc:/pages/Page_UserInfo.qml");
+                        drawer.close();
                     }
-                    Layout.preferredWidth: dpW(40);
-                    Layout.preferredHeight: dpH(40);
-                    radius: width / 2;
-                    color: Qt.rgba(0,0,0,0);
                 }
-                XNormalText{
-                    color: "white";
-                    text: "XuChaoChi@gmail.com";
-                    Layout.alignment: parent.verticalCenter | Qt.AlignLeft;
+                RowLayout {
+                    width: parent.width;
+                    height: dpH(70);
+                    Rectangle{
+                        Image {
+                            anchors.fill: parent;
+                            source: "qrc:/imgs/icon/user2.png"
+                        }
+                        Layout.preferredWidth: dpW(40);
+                        Layout.preferredHeight: dpH(40);
+                        radius: width / 2;
+                        color: Qt.rgba(0,0,0,0);
+                    }
+                    XNormalText{
+                        color: "white";
+                        text: "XuChaoChi@gmail.com";
+                        Layout.alignment: parent.verticalCenter | Qt.AlignLeft;
 
-                }
-                Image {
+                    }
+                    Image {
+                        Layout.alignment: parent.verticalCenter | Qt.AlignRight;
+                        Layout.rightMargin: dpW(10);
+                        Layout.preferredWidth: dpW(25);
+                        Layout.preferredHeight: dpH(25);
+                        source: "qrc:/imgs/other/navigation_next_item.png"
+                    }
 
-                    Layout.alignment: parent.verticalCenter | Qt.AlignRight;
-                    Layout.rightMargin: dpW(10);
-                    Layout.preferredWidth: dpW(25);
-                    Layout.preferredHeight: dpH(25);
-                    source: "qrc:/imgs/other/navigation_next_item.png"
+
                 }
             }
+
             Rectangle{
                 id: lineRect;
                 width: parent.width;

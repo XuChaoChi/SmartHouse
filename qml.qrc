@@ -98,7 +98,10 @@
         <file>component/XMainDrawerItem.qml</file>
         <file>component/XLabel.qml</file>
         <file>pages/Page_MainDrawer.qml</file>
-        <file>C:/Users/Chixuchao/Downloads/用户.png</file>
         <file>imgs/icon/user2.png</file>
+        <file>pages/Page_UserInfo.qml</file>
+        <file>imgs/bg/userinfo.png</file>
+        <file>component/XConfigItemDelegate.qml</file>
+        <file>imgs/other/next.png</file>
     </qresource>
 </RCC>
